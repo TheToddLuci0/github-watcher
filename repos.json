@@ -1,0 +1,15 @@
+{
+    "repos": [
+        {
+            "repo": "hashcat/hashcat",
+            "branch": "master",
+            "latest_commit": "6886a70692d060903e31a40a2477575d5c60de9b",
+            "action": "invoke_workflow",
+            "options": {
+                "repo": "TheToddLuci0/hashcat-brain-docker",
+                "name": "publish_image.yaml",
+                "branch": "master"
+            }
+        }
+    ]
+}
